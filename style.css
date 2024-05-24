@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#pass{
+    height: 100vh;
+    background-color:#00b894 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pass .wrapper{
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+}
+#pass .wrapper input{
+    padding: 10px;
+    border: none;
+    outline: 0;
+}
+#pass .wrapper .btn{
+    display: flex;
+}
+#pass .wrapper button{
+    padding: 10px;
+    border: 0;
+}
+#pass .wrapper .btn2{
+    display: none;
+}
